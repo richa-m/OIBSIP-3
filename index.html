@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="Temperature Change.png">
+  <title>Temperature Converter</title>
+</head>
+    <body>
+        <div class="container">
+            <h1>Temperature Converter</h1>
+            <div class="row">
+              <h2>Degree</h2>
+              <input type="text" id="tempinput" class="abc" placeholder="Temperature" />
+              <select  id="initialtemp" class="ab">
+                <option value="c" selected>C</option>
+                <option value="f">F</option>
+                <option value="k">K</option>
+              </select>
+              <h2>Result</h2>
+              <input type="text" id="result" class="abc" placeholder="Converted Temperature"/>
+
+            </div>
+            <button type="button" onclick="convert()" class="ac">Convert</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
